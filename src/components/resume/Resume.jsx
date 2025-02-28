@@ -159,7 +159,7 @@ const Resume = () => {
       <center className="download"><p>Click the button below to download my resume:</p>
       <Button 
         variant="dark" 
-        href="../../../public/DARIYA HUSSEIN MERN.pdf" 
+        href="../../../DARIYA HUSSEIN MERN.pdf" 
         download="Dariya Hussein Resume.pdf"
         target="_blank"
       >
