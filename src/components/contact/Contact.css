@@ -1,0 +1,106 @@
+.address , .resister{
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+h2{
+   
+    width: fit-content;
+    padding: 20px;
+    border-bottom: 5px solid rgb(6, 246, 182) ;
+}
+.section{
+    display: flex;
+    gap: 5%;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+.contacticon img{
+  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    padding: 9px;
+    border: none;
+}
+.contacticon img:hover{
+   filter: invert(1);
+}
+.maploaction{
+    width: 100%;
+    height: 350px;
+}
+.form div span{
+display: flex;
+flex-direction: column;
+width: 45%;
+gap: 10px;
+}
+.form input{
+    color: rgb(86, 86, 87);
+    font-weight: 300;
+    font-size: 0.9rem;
+    height: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    padding-left: 10px;
+    outline: none;
+    }
+    .form input:focus{
+        border: 2px solid rgb(13, 155, 113) ;
+    }    
+    
+.form div{
+    display: flex;
+    justify-content: space-between; 
+ 
+}
+.form .subject {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.form .message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+
+}
+.form .message textarea{
+    height: 350px;
+    padding: 10px 10px;
+    color: rgb(86, 86, 87);
+    font-weight: 300;
+    font-size: 0.9rem;
+    word-wrap: break-word; 
+    outline: none;
+   
+}
+.form .message textarea:focus {
+    border: 2px solid rgb(13, 155, 113) ;
+}
+center{
+    margin-top: 20px
+}
+button{
+    background-color: rgb(78, 238, 190);
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border-radius: 10px !important;
+}
+@media(max-width:600px){
+    .form div {
+    display: flex;
+    flex-direction: column;
+}
+.form div  span{
+    width: 100%;
+}
+.address , .resister{
+    margin: 0px;
+    margin: 5px auto;
+    width: 95% !important;
+}
+}

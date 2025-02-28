@@ -1,0 +1,56 @@
+.resume-item ul li {
+    padding-bottom: 10px;
+   
+}
+.resume-item ul {
+    padding-left: 20px;
+}
+.resume-title{font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.resume-item{
+    padding: 0px 30px;
+    border-left: 2px solid rgb(12, 241, 195) ;
+    position: relative;
+    margin-top: -2px;
+    color: rgb(94, 95, 96); 
+    font-size: 0.9rem;
+
+ 
+}
+.resume-item h5{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.resume-item h6{
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: black;
+}
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: rgb(232, 232, 242);
+    border: 2px solid rgb(12, 241, 195) !important;
+
+  }
+  .download p{
+    color: rgb(92, 92, 92);
+    text-decoration: underline;
+  }
+  @media (max-width:426px){
+    .resume-item{
+        font-size: small;
+    }
+    .download p{
+        font-size: 0.7rem;
+      }
+  }

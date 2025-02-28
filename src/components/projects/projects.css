@@ -1,0 +1,44 @@
+.maincontainer {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    transition: transform 0.3s ease-in-out;
+   
+    align-items: stretch !important;
+  }
+  .project-card {
+
+    min-height: 100%;  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  .custom-live-btn {
+    background-color: #31bf9e !important; 
+    color: #000000 !important;
+    border: none !important; 
+  }
+  .custom-live-btn:hover {
+    background-color: #42e016 !important;
+  }
+  .custom-github-btn {
+    background-color: #a8a8a8 !important; 
+    color: #000000 !important;
+    border: none !important; 
+  }
+  
+  .custom-github-btn:hover {
+  
+    background-color: #a97878 !important;
+  }
+  

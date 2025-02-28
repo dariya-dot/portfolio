@@ -1,0 +1,56 @@
+
+#imagecalss img{
+height: 80%;
+width: 100%;
+
+object-fit: cover;
+}
+.list-class{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-class div ul li{
+list-style: none ;
+position: relative;
+padding: 10px 20px;
+
+}
+.list-class div ul li::before {
+    content: "➤"; 
+    position: absolute;
+    left: 0;
+    color: #0fdb16; 
+    font-size: 16px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar{
+    background-color: #0cf1c3 !important;
+}
+.fullbar{
+    background-color: gray;
+    max-width: 100% ;
+}
+
+
+
+@media(max-width:766px){
+    .imageAndData,.list-class {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+   
+    #imagecalss img{
+        height: 350px;
+        width: 100%;
+        }
+}
+
+@media (max-width:350px){
+    .list-class{
+        font-size: small;
+    }
+}
