@@ -8,7 +8,7 @@ const Main = () => {
       <Row className="align-items-center hero-section">
         <Col md={6} className="text-section">
           <h1>Hi, I'm Dariya Hussein</h1>
-          <h3>Full Stack Developer & UI/UX Enthusiast</h3>
+          <h3>Full-Stack MERN Developer </h3>
           <p>
             Passionate about building seamless digital experiences with modern
             web technologies. Let's create something amazing together!
@@ -43,7 +43,7 @@ const Main = () => {
           <p>MongoDB</p>
         </Col>
         <Col md={3}>
-          <p>UI/UX Design</p>
+          <p>Express.js</p>
         </Col>
       </Row>
     </Container>

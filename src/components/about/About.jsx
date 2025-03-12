@@ -12,22 +12,24 @@ const About = ({ data }) => {
       </center>
       <Container>
         <center><p>
-        A highly motivated and detail-oriented full-stack developer with a strong passion for
-         designing user-centric digital experiences.
-         Dedicated to creating seamless, responsive, and efficient web solutions 
-         with a blend of creativity and technical expertise
+        A highly motivated and detail-oriented MERN stack developer with
+         a strong passion for building dynamic, scalable, and user-friendly web applications.
+          Dedicated to creating seamless,
+         responsive, and efficient solutions by leveraging MongoDB, Express.js, React, and Node.js.
         </p></center>
         <Row className="imageAndData">
           <Col md={4} className=" p-3 " id="imagecalss">
             <img src="../../../Pica-enhance-20250227202701.png" />
           </Col>
           <Col md={8} className="p-3">
-            <h4>UI/UX Designer & Web Developer.</h4>
+            <h4>MERN Stack Developer | Building Scalable Web Solutions</h4>
             <p>
-            With a strong foundation in both design and development, I specialize
-             in crafting visually appealing and functionally robust web applications. 
-            I strive to bridge the gap between aesthetics and technology, 
-            ensuring intuitive and engaging user experiences
+            With a strong foundation in both frontend and backend development,
+             I specialize in crafting high-performance web applications, integrating APIs,
+              and optimizing user experiences. I strive to bridge the gap between functionality
+               and innovation, ensuring intuitive, secure, and engaging digital solutions.
+
+
             </p>
             <div className="list-class">
               <div>
@@ -50,7 +52,7 @@ const About = ({ data }) => {
               <div>
                 <ul>
                   <li>
-                    <strong>Age:</strong>30
+                    <strong>Age:</strong>29
                   </li>
 
                   <li>
